@@ -15,6 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringBootTestController {
     @GetMapping(value = "/hello")
     public String welcome(){
-        return "welcome to springboot world!!!!";
+        return "welcome to springboot world!";
     }
 }
