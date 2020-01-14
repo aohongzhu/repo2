@@ -9,4 +9,4 @@ RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
 
 ADD target/springboot_demo-*.jar /test-service.jar
 ENTRYPOINT ["java","-jar", "test-service.jar"]
-EXPOSE 8081
+EXPOSE 8080
